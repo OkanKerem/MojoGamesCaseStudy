@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 988fe6d75426af748b950e7cbc9c153b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 52
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 52
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrangeButton
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 50, z: 40, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b986685d31b6674a938fe70a0fe004b
+      internalID: -393133219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleButton
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 50, z: 40, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5bad506e02d94295c331bad1f0e37
+      internalID: -2129968469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenButton
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 50, z: 40, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef2f42bc5bbbdc479c2b5d4889f49c1
+      internalID: -669478725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabelBg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b61087ddcd88d499d87faa098a4d8d
+      internalID: 1606924616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillBar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 40, z: 50, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef9523ae6bca414b9149613c9afc64d
+      internalID: -1127715397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillMask
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 40, z: 50, w: 40}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e2da805e687814f9471c4c75c14234
+      internalID: -811553167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinIcon
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0a4263a15a28e4197e1bc64b8e8225
+      internalID: 918450126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AlienWarrior1: 481677772
+      AlienWarrior2: 909536301
+      Alien_1: 1080611139
+      Alien_2: -1692523875
+      Alien_3: -894228743
+      Alien_4: 521411600
+      Alien_5: -562318804
+      ArcherSkill_Icon01: -1354076122
+      ArcherSkill_Icon02: 1645763431
+      ArcherSkill_Icon03: 1402775892
+      ArcherWarrior1: 965383745
+      ArcherWarrior2: 178320507
+      BritishWarrior1: -1051657515
+      BritishWarrior2: -915046302
+      BronzeWarrior1: -1505112199
+      BronzeWarrior2: 1006523650
+      ChampionPortraits_Atlas_2048_0: 1171052170
+      ChampionSlotPanelBG: -1363501703
+      Champion_Atlas_1024_4: -933198898
+      CoinIcon: 918450126
+      CowboySkill_Icon01: 2075432810
+      CowboySkill_Icon02: 1799146740
+      CowboySkill_Icon03: 1061135427
+      CowboyWarrior1: 70618989
+      CowboyWarrior2: -1650579092
+      CyberpunkWarrior1: -1888577866
+      CyberpunkWarrior2: 451300052
+      EgyptWarrior1: -653542636
+      EgyptWarrior2: 22708189
+      Egypt_1: 449713189
+      Egypt_2: 244641530
+      Egypt_3: 56871293
+      FarmerWarrior1: -663095181
+      FarmerWarrior2: 2090765884
+      FillBar: -1127715397
+      FillMask: -811553167
+      FuturisticSkill_Icon01: 1774239546
+      FuturisticSkill_Icon02: -1123206390
+      FuturisticSkill_Icon03: 738404280
+      GangsterWarrior1: -630269746
+      GangsterWarrior2: 2143776385
+      GreenButton: -669478725
+      IceAge_1: -386641004
+      IceAge_2: -1908146340
+      IceAge_3: 1506543542
+      IceAge_4: -204932302
+      IceAge_5: 182719745
+      IceWarrior1: 591702809
+      IceWarrior2: -1664344518
+      IndianWarrior1: -1382465504
+      IndianWarrior2: 1863566856
+      JungleSkill_Icon01: 345954162
+      JungleSkill_Icon02: -1949692043
+      JungleSkill_Icon03: -727009555
+      JungleWarrior1: -1243488932
+      JungleWarrior2: 1484405287
+      LabelBg: 1606924616
+      MafiaWarrior1: -758718956
+      MafiaWarrior2: 598888547
+      MagicWarrior1: -1213463690
+      MagicWarrior2: -113463315
+      Magic_2: -1189261622
+      Magic_3: 1026367073
+      Magic_4: 1321156589
+      Magic_5: -1972529391
+      MagicianSkill_Icon01: -127043541
+      MagicianSkill_Icon02: -179402759
+      MagicianSkill_Icon03: 1877977892
+      Maya_2: 200803776
+      Maya_3: 1866153571
+      Maya_4: 1679117790
+      MedievalWarrior1: -1486692174
+      MedievalWarrior2: -2127877926
+      MexicanWarrior1: 1945272847
+      MexicanWarrior2: -25578495
+      MinerWarrior1: 189214608
+      MinerWarrior2: 930839769
+      ModernAge_3: 1106297987
+      ModernAge_4: 944678173
+      ModernAge_5: -1703027685
+      ModernWarrior1: -1862635199
+      ModernWarrior2: -450597582
+      MutantWarrior1: 1195237575
+      MutantWarrior2: 2071225712
+      NativeAmerica_1: 1111670115
+      NativeAmerica_2: 455102597
+      NativeAmerica_3: -659023149
+      NativeAmerica_4: -734179267
+      NativeAmerica_5: 1960670596
+      NinjaWarrior1: 1056558241
+      NinjaWarrior2: -1752289830
+      Ninja_1: 1876912897
+      Ninja_2: 633794377
+      Ninja_3: 762742193
+      NuclearWarrior1: 1453246280
+      NuclearWarrior2: -2070369621
+      OrangeButton: -393133219
+      Pet_Alien: -2124324562
+      Pet_Atlas_1024_0: -1307325241
+      Pet_Bat: 1891958263
+      Pet_Cat: 2095823813
+      Pet_Dragon: 1894788124
+      Pet_Drone01: 179590981
+      Pet_Drone02: 1742532305
+      Pet_Drone03: -823723317
+      Pet_Ghost: 1669722887
+      Pet_JellyFish: -1076998501
+      Pet_Owl: 1198477235
+      Pet_Turtle: 1722335885
+      PirateWarrior1: 1692765474
+      PirateWarrior2: -492568740
+      PoliceWarrior1: -299956046
+      PoliceWarrior2: -334870089
+      PostApocalipticWarrior1: -497531015
+      PostApocalipticWarrior2: 1498853854
+      Prehistoric_1: 760181730
+      Prehistoric_2: 993903655
+      Prehistoric_3: -793928905
+      Prehistoric_4: -126328321
+      Prehistoric_5: -663768408
+      PurpleButton: -2129968469
+      RenaissanceWarrior1: -1601757430
+      RenaissanceWarrior2: 1479202032
+      Renaissance_4: -1384023229
+      Renaissance_5: -1470707245
+      RobotWarrior1: 1081624263
+      RobotWarrior2: -286885971
+      Robot_1: 471864109
+      Robot_2: -828894394
+      Robot_3: -1076320815
+      Robot_4: -619560335
+      Robot_5: -1646690659
+      SamuraiWarrior1: -1743306847
+      SamuraiWarrior2: 410839114
+      Samurai_1: -1908243038
+      SpaceWarrior1: 1215594657
+      SpaceWarrior2: -715983985
+      Space_5: 1490450272
+      SpartanWarrior1: -1490546706
+      SpartanWarrior2: -1423099426
+      Spartan_2: 98966799
+      Spartan_3: 1092629328
+      Spartan_4: -1810516488
+      Spartan_5: 993403158
+      VRWarrior1: -177078957
+      VRWarrior2: -2014672530
+      VikingSkill_Icon01: 1075878795
+      VikingSkill_Icon02: 232249257
+      VikingSkill_Icon03: 1416671447
+      VikingWarrior1: 597100607
+      VikingWarrior2: 1399345009
+      Vikings_1: -1177910297
+      Vikings_2: 1840274757
+      WorldWarWarrior1: 173320077
+      WorldWarWarrior2: -963442701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

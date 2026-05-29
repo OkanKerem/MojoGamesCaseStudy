@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1252ad58e47de4148be6a8734aafe1c2, type: 3}
+  m_Name: Level_4
+  m_EditorClassIdentifier: 
+  levelNumber: 4
+  boundsMinX: -3
+  boundsMinY: -3
+  width: 8
+  height: 6
+  cells:
+  - x: -3
+    y: 2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -3
+    y: 1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -3
+    y: 0
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -2
+    y: 0
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -2
+    y: -1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -1
+    y: -1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: -1
+    y: -2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 0
+    y: -2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 0
+    y: -3
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 1
+    y: -2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 2
+    y: -2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 2
+    y: -1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 3
+    y: -1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 3
+    y: 0
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 4
+    y: 0
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 4
+    y: 1
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 4
+    y: 2
+    hasTile: 1
+    hasUnit: 0
+    hasBarrier: 1
+    hasBox: 0
+    unitType: {fileID: 0}
+  - x: 0
+    y: -1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 0994380b5d84e8f4fb977ea4e47569d0, type: 2}
+  - x: 0
+    y: 0
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 0994380b5d84e8f4fb977ea4e47569d0, type: 2}
+  - x: 0
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 0994380b5d84e8f4fb977ea4e47569d0, type: 2}
+  - x: 1
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 54aaf339d295b6d4a81bdfdfe1a0a7a7, type: 2}
+  - x: 2
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 54aaf339d295b6d4a81bdfdfe1a0a7a7, type: 2}
+  - x: 2
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 1
+    unitType: {fileID: 11400000, guid: 54aaf339d295b6d4a81bdfdfe1a0a7a7, type: 2}
+  - x: 3
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 3d3b7512532c9374cbaa878c65b94608, type: 2}
+  - x: 3
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 3d3b7512532c9374cbaa878c65b94608, type: 2}
+  - x: 2
+    y: 0
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 3d3b7512532c9374cbaa878c65b94608, type: 2}
+  - x: 1
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: 1
+    y: 0
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: 1
+    y: -1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: -1
+    y: 0
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: -2
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: -1
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 9bbaac050dfe51f4da8e8eb9f99df5d7, type: 2}
+  - x: 0
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 4f1c6d26630c499419b836c139d2bde8, type: 2}
+  - x: -1
+    y: 1
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 4f1c6d26630c499419b836c139d2bde8, type: 2}
+  - x: -2
+    y: 2
+    hasTile: 1
+    hasUnit: 1
+    hasBarrier: 0
+    hasBox: 0
+    unitType: {fileID: 11400000, guid: 4f1c6d26630c499419b836c139d2bde8, type: 2}
