@@ -60,29 +60,5 @@ public static class LevelCatalogMenu
         Selection.activeObject = catalog;
         Debug.Log($"Level catalog updated with {levels.Count} level(s) at {CatalogPath}");
     }
-
-    [MenuItem("Puzzle/Level Catalog/Assign Catalog To GameManager In Scene")]
-    public static void AssignCatalogToGameManager()
-    {
-        LevelCatalogConfig catalog = AssetDatabase.LoadAssetAtPath<LevelCatalogConfig>(CatalogPath);
-        if (catalog == null)
-        {
-            Debug.LogWarning("Run 'Create Or Update From Levels Folder' first.");
-            return;
-        }
-
-        GameManager gameManager = Object.FindFirstObjectByType<GameManager>();
-        if (gameManager == null)
-        {
-            Debug.LogWarning("No GameManager in the open scene.");
-            return;
-        }
-
-        SerializedObject serialized = new SerializedObject(gameManager);
-        serialized.FindProperty("_levelCatalog").objectReferenceValue = catalog;
-        serialized.ApplyModifiedPropertiesWithoutUndo();
-        EditorUtility.SetDirty(gameManager);
-        Debug.Log("Assigned LevelCatalog to GameManager.");
-    }
 }
 #endif

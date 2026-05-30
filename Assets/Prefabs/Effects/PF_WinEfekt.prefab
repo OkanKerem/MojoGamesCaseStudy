@@ -9558,7 +9558,7 @@ GameObject:
   - component: {fileID: 8170390538141428283}
   - component: {fileID: 8946316201044387579}
   m_Layer: 0
-  m_Name: WinEfekt
+  m_Name: PF_WinEfekt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

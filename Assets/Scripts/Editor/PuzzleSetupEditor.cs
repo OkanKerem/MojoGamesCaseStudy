@@ -32,48 +32,7 @@ public static class PuzzleSetupEditor
         Debug.Log("Unit types created in Assets/Data/UnitTypes");
     }
 
-    [MenuItem("Puzzle/Setup/Bake Unit Pool (16)")]
-    public static void BakeUnitPool()
-    {
-        Unit unitPrefab = CreateUnitPrefab();
-        UnitPool unitPool = Object.FindFirstObjectByType<UnitPool>();
-        if (unitPool == null)
-        {
-            Debug.LogError("Bake Unit Pool: No UnitPool found in the open scene. Run Build Gameplay Scene first.");
-            return;
-        }
-
-        Transform poolRoot = unitPool.transform.Find("PoolRoot");
-        if (poolRoot == null)
-        {
-            GameObject poolRootObject = new GameObject("PoolRoot");
-            poolRootObject.transform.SetParent(unitPool.transform, false);
-            poolRoot = poolRootObject.transform;
-        }
-
-        SetSerializedField(unitPool, "poolRoot", poolRoot);
-        SetSerializedField(unitPool, "unitPrefab", unitPrefab);
-        SetSerializedField(unitPool, "defaultCapacity", 16);
-        SetSerializedField(unitPool, "collectSceneUnits", true);
-        SetSerializedField(unitPool, "sceneInstancesOnly", true);
-        SetSerializedField(unitPool, "allowRuntimeExpand", false);
-        SetSerializedField(unitPool, "sceneUnitsParent", poolRoot);
-
-        int existing = poolRoot.GetComponentsInChildren<Unit>(true).Length;
-        int toCreate = Mathf.Max(0, 16 - existing);
-        for (int i = 0; i < toCreate; i++)
-        {
-            Unit unit = (Unit)PrefabUtility.InstantiatePrefab(unitPrefab, poolRoot);
-            unit.gameObject.SetActive(false);
-            unit.name = $"Unit_{existing + i + 1}";
-        }
-
-        EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-        Debug.Log($"Unit pool baked under PoolRoot ({existing + toCreate} total units).");
-    }
-
-    [MenuItem("Puzzle/Setup/Create Sample Levels")]
-    public static void CreateSampleLevels()
+    private static void CreateSampleLevels()
     {
         EnsureFolder("Assets/Data");
         EnsureFolder(LevelFolder);
